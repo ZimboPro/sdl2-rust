@@ -50,7 +50,7 @@ pub trait PositionTrait {
 pub trait GetRect {
   fn rect_mut(&mut self) -> &mut Rect;
   fn rect(&self) -> &Rect;
-
+ca
   fn add_position(&mut self, x: i32, y: i32) {
     let r = self.rect_mut();
     r.x += x;

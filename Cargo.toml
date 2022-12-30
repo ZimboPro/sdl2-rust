@@ -1,0 +1,2 @@
+[workspace]
+members=["space-shooter", "graphics", "game_macros"]
